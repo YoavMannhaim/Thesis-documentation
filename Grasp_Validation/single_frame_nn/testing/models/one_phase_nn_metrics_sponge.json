@@ -1,0 +1,67 @@
+{
+  "dataset": "sponge",
+  "test_accuracy": 0.8485714285714285,
+  "final_train_accuracy": 0.8080357313156128,
+  "final_val_accuracy": 0.8642857074737549,
+  "n_samples": 1750,
+  "split": {
+    "train": 1120,
+    "val": 280,
+    "test": 350
+  },
+  "grip_categories": [
+    "no_grip",
+    "bad_grip",
+    "semi_good_grip",
+    "good_grip"
+  ],
+  "sensor_columns": [
+    "sensor_1",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4"
+  ],
+  "class_weighted": false,
+  "epochs": 100,
+  "random_state": 42,
+  "scaler": "one_phase_nn_sponge_scaler.joblib",
+  "per_class_report": {
+    "no_grip": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 26.0
+    },
+    "bad_grip": {
+      "precision": 0.8529411764705882,
+      "recall": 0.8130841121495327,
+      "f1-score": 0.8325358851674641,
+      "support": 107.0
+    },
+    "semi_good_grip": {
+      "precision": 0.8407079646017699,
+      "recall": 0.8715596330275229,
+      "f1-score": 0.8558558558558559,
+      "support": 109.0
+    },
+    "good_grip": {
+      "precision": 0.8165137614678899,
+      "recall": 0.8240740740740741,
+      "f1-score": 0.8202764976958525,
+      "support": 108.0
+    },
+    "accuracy": 0.8485714285714285,
+    "macro avg": {
+      "precision": 0.877540725635062,
+      "recall": 0.8771794548127824,
+      "f1-score": 0.8771670596797931,
+      "support": 350.0
+    },
+    "weighted avg": {
+      "precision": 0.8488153150356514,
+      "recall": 0.8485714285714285,
+      "f1-score": 0.84845568500674,
+      "support": 350.0
+    }
+  }
+}

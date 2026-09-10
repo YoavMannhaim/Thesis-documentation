@@ -1,0 +1,67 @@
+{
+  "dataset": "holder",
+  "test_accuracy": 0.7989949748743719,
+  "final_train_accuracy": 0.7900943160057068,
+  "final_val_accuracy": 0.7987421154975891,
+  "n_samples": 1988,
+  "split": {
+    "train": 1272,
+    "val": 318,
+    "test": 398
+  },
+  "grip_categories": [
+    "no_grip",
+    "bad_grip",
+    "semi_good_grip",
+    "good_grip"
+  ],
+  "sensor_columns": [
+    "sensor_1",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4"
+  ],
+  "class_weighted": false,
+  "epochs": 100,
+  "random_state": 42,
+  "scaler": "one_phase_nn_holder_scaler.joblib",
+  "per_class_report": {
+    "no_grip": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 26.0
+    },
+    "bad_grip": {
+      "precision": 0.7419354838709677,
+      "recall": 0.736,
+      "f1-score": 0.7389558232931727,
+      "support": 125.0
+    },
+    "semi_good_grip": {
+      "precision": 0.8627450980392157,
+      "recall": 0.8461538461538461,
+      "f1-score": 0.8543689320388349,
+      "support": 104.0
+    },
+    "good_grip": {
+      "precision": 0.7671232876712328,
+      "recall": 0.7832167832167832,
+      "f1-score": 0.7750865051903114,
+      "support": 143.0
+    },
+    "accuracy": 0.7989949748743719,
+    "macro avg": {
+      "precision": 0.842950967395354,
+      "recall": 0.8413426573426573,
+      "f1-score": 0.8421028151305797,
+      "support": 398.0
+    },
+    "weighted avg": {
+      "precision": 0.7994122005450647,
+      "recall": 0.7989949748743719,
+      "f1-score": 0.7991487866479898,
+      "support": 398.0
+    }
+  }
+}

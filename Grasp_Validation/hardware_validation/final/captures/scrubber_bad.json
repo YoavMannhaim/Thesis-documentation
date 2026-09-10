@@ -1,0 +1,14 @@
+{
+  "label": "scrubber_bad",
+  "object_model": "sponge",
+  "n_frames": 180,
+  "simulated": false,
+  "sensor_means": [
+    12.38,
+    76.48,
+    0.0,
+    0.0
+  ],
+  "record_only": true,
+  "raw_file": "scrubber_bad.xlsx"
+}

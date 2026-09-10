@@ -1,0 +1,14 @@
+{
+  "label": "yellow_bad",
+  "object_model": "sponge",
+  "n_frames": 180,
+  "simulated": false,
+  "sensor_means": [
+    2.48,
+    11.89,
+    0.0,
+    0.0
+  ],
+  "record_only": true,
+  "raw_file": "yellow_bad.xlsx"
+}

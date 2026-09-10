@@ -1,0 +1,99 @@
+{
+  "dataset": "holder",
+  "window_size": 15,
+  "stride": 3,
+  "test_accuracy": 0.8771929824561403,
+  "final_train_accuracy": 0.9572649598121643,
+  "final_val_accuracy": 0.4886363744735718,
+  "epochs_trained": 27,
+  "n_train_windows": 439,
+  "n_test_windows": 171,
+  "train_files": [
+    "Holder_Bottom_Bad.xlsx",
+    "Holder_Bottom_Good.xlsx",
+    "Holder_Bottom_semi.xlsx",
+    "Holder_Front_Bad.xlsx",
+    "Holder_Front_Good.xlsx",
+    "Holder_Front_Semi.xlsx",
+    "Holder_Side_Bad.xlsx",
+    "Holder_Side_Good.xlsx",
+    "No_Grip.xlsx (train portion)"
+  ],
+  "test_files": [
+    "Holder_Back_Bad.xlsx",
+    "Holder_Back_Good.xlsx",
+    "Holder_Back_Semi.xlsx",
+    "No_Grip.xlsx (test portion)"
+  ],
+  "classification_report": {
+    "no_grip": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1-score": 0.9523809523809523,
+      "support": 10.0
+    },
+    "bad_grip": {
+      "precision": 0.9107142857142857,
+      "recall": 0.9807692307692307,
+      "f1-score": 0.9444444444444444,
+      "support": 52.0
+    },
+    "semi_good_grip": {
+      "precision": 0.782608695652174,
+      "recall": 1.0,
+      "f1-score": 0.8780487804878049,
+      "support": 54.0
+    },
+    "good_grip": {
+      "precision": 1.0,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.7777777777777778,
+      "support": 55.0
+    },
+    "accuracy": 0.8771929824561403,
+    "macro avg": {
+      "precision": 0.9006034726143421,
+      "recall": 0.9042832167832168,
+      "f1-score": 0.8881629887727448,
+      "support": 171.0
+    },
+    "weighted avg": {
+      "precision": 0.8988825819489434,
+      "recall": 0.8771929824561403,
+      "f1-score": 0.8703352781230401,
+      "support": 171.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      51,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      54,
+      0
+    ],
+    [
+      0,
+      5,
+      15,
+      35
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "no_grip",
+    "bad_grip",
+    "semi_good_grip",
+    "good_grip"
+  ]
+}

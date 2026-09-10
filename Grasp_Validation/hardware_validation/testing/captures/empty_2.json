@@ -1,0 +1,14 @@
+{
+  "label": "empty_2",
+  "object_model": "sponge",
+  "n_frames": 180,
+  "simulated": false,
+  "sensor_means": [
+    5.71,
+    20.62,
+    0.0,
+    0.0
+  ],
+  "record_only": true,
+  "raw_file": "empty_2.xlsx"
+}

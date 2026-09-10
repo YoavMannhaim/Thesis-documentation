@@ -1,0 +1,14 @@
+{
+  "label": "holder_bad",
+  "object_model": "holder",
+  "n_frames": 180,
+  "simulated": false,
+  "sensor_means": [
+    1.26,
+    9.22,
+    0.0,
+    0.0
+  ],
+  "record_only": true,
+  "raw_file": "holder_bad.xlsx"
+}

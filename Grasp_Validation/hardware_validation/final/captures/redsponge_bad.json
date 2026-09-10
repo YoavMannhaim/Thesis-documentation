@@ -1,0 +1,14 @@
+{
+  "label": "redsponge_bad",
+  "object_model": "sponge",
+  "n_frames": 180,
+  "simulated": false,
+  "sensor_means": [
+    11.44,
+    36.53,
+    0.0,
+    0.0
+  ],
+  "record_only": true,
+  "raw_file": "redsponge_bad.xlsx"
+}

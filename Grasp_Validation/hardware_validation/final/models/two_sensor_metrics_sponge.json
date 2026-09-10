@@ -1,0 +1,95 @@
+{
+  "dataset": "sponge",
+  "sensors_used": [
+    "sensor_1",
+    "sensor_2"
+  ],
+  "dense_test_accuracy": 0.5942857142857143,
+  "dense_report": {
+    "no_grip": {
+      "precision": 0.8387096774193549,
+      "recall": 1.0,
+      "f1-score": 0.9122807017543859,
+      "support": 26.0
+    },
+    "bad_grip": {
+      "precision": 0.6074074074074074,
+      "recall": 0.7663551401869159,
+      "f1-score": 0.6776859504132231,
+      "support": 107.0
+    },
+    "semi_good_grip": {
+      "precision": 0.5492957746478874,
+      "recall": 0.3577981651376147,
+      "f1-score": 0.43333333333333335,
+      "support": 109.0
+    },
+    "good_grip": {
+      "precision": 0.5398230088495575,
+      "recall": 0.5648148148148148,
+      "f1-score": 0.5520361990950227,
+      "support": 108.0
+    },
+    "accuracy": 0.5942857142857143,
+    "macro avg": {
+      "precision": 0.6338089670810518,
+      "recall": 0.6722420300348363,
+      "f1-score": 0.6438340461489913,
+      "support": 350.0
+    },
+    "weighted avg": {
+      "precision": 0.5856376245653364,
+      "recall": 0.5942857142857143,
+      "f1-score": 0.5802426793583563,
+      "support": 350.0
+    }
+  },
+  "lstm_test_accuracy": 0.6549707602339181,
+  "lstm_report": {
+    "no_grip": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "bad_grip": {
+      "precision": 0.7272727272727273,
+      "recall": 0.8,
+      "f1-score": 0.7619047619047619,
+      "support": 50.0
+    },
+    "semi_good_grip": {
+      "precision": 0.6666666666666666,
+      "recall": 0.14545454545454545,
+      "f1-score": 0.23880597014925373,
+      "support": 55.0
+    },
+    "good_grip": {
+      "precision": 0.574468085106383,
+      "recall": 0.9642857142857143,
+      "f1-score": 0.72,
+      "support": 56.0
+    },
+    "accuracy": 0.6549707602339181,
+    "macro avg": {
+      "precision": 0.7421018697614443,
+      "recall": 0.7274350649350649,
+      "f1-score": 0.6801776830135038,
+      "support": 171.0
+    },
+    "weighted avg": {
+      "precision": 0.6736872268787162,
+      "recall": 0.6549707602339181,
+      "f1-score": 0.5938571137628483,
+      "support": 171.0
+    }
+  },
+  "lstm_test_files": [
+    "No_Grip.xlsx (test portion)",
+    "Spong_Bottom_Bad.xlsx",
+    "Spong_Bottom_Good.xlsx",
+    "Spong_Bottom_Semi.xlsx"
+  ],
+  "epochs": 100,
+  "random_state": 42
+}
