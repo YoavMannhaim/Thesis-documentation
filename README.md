@@ -45,9 +45,10 @@ Grasp_Validation/
 ├── sequence_lstm/
 │   ├── final/                LSTM sequence-window grip classifier
 │   └── testing/              Predict_Sequence.py --self-test
-└── hardware_validation/
-    ├── final/                real-rig capture tool, 2-sensor ablation, data, models, photos, videos
-    └── testing/              Train_Rig.py — reproduces the published rig results
+├── hardware_validation/
+│   ├── final/                real-rig capture tool, 2-sensor ablation, data, models, photos, videos
+│   └── testing/              Train_Rig.py — reproduces the published rig results
+└── methodology_comparison/   the 6-method comparison behind Table 7.6 (see its own README)
 
 Experiments/
 └── Photo and video documentation for every physical experiment behind the
@@ -55,9 +56,14 @@ Experiments/
     validation hardware pilot. See Experiments/README.md for the full layout.
 
 Simulation_Results/
-└── The Force-Aware RRT* planner's 50-scenario simulation bank — start/tree/
-    goal images and a trajectory video per scenario, plus the aggregate
-    summary figure. See Simulation_Results/README.md for the full layout.
+├── Scenario_Bank/            The Force-Aware RRT* planner's 50-scenario bank —
+│                              start/tree/goal images + a trajectory video per
+│                              scenario, plus the aggregate summary figure.
+└── Grasp_Validation_Methodology_Comparison/
+                               Figures from Grasp_Validation/methodology_comparison/,
+                               plus a results writeup comparing them against the
+                               thesis's published Table 7.6 numbers.
+See Simulation_Results/README.md for the full layout.
 ```
 
 ## RRT_Star
