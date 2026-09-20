@@ -53,6 +53,11 @@ Experiments/
 └── Photo and video documentation for every physical experiment behind the
     thesis — material characterization, sensor selection, and the grasp-
     validation hardware pilot. See Experiments/README.md for the full layout.
+
+Simulation_Results/
+└── The Force-Aware RRT* planner's 50-scenario simulation bank — start/tree/
+    goal images and a trajectory video per scenario, plus the aggregate
+    summary figure. See Simulation_Results/README.md for the full layout.
 ```
 
 ## RRT_Star
