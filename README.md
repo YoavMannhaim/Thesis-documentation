@@ -1,5 +1,33 @@
 # Adhesive Gripper — Code for Testers
 
+## Getting Started
+
+**Requirements:** Python 3.10+ (developed and tested on 3.12).
+
+```bash
+git clone https://github.com/YoavMannhaim/Thesis-documentation.git
+cd Thesis-documentation
+pip install -r requirements.txt
+```
+
+That's the only setup step — every runnable folder (`final/` and `testing/`
+in each group below) is self-contained: it carries its own copy of the raw
+sensor data and any local helper modules it needs, so nothing beyond the
+one `pip install` above is required before running a script from inside it.
+
+**To confirm everything is working**, run the automated test suite for the
+single-frame grasp classifier — it exercises the real trained model against
+recorded sensor data with no hardware required, and should finish with
+`22/22 passed`:
+
+```bash
+cd Grasp_Validation/single_frame_nn/testing
+python Test_Grasp_Protocol.py
+```
+
+For the RRT\* planner and the other grasp-validation approaches, see their
+own sections below for the exact commands.
+
 This repository is organized into two top-level groups, matching the two systems
 described in the thesis. Each group is split into `final/` (the working
 implementation) and `testing/` (scripts used to verify it).
