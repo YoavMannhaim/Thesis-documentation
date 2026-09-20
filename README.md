@@ -46,8 +46,13 @@ Grasp_Validation/
 │   ├── final/                LSTM sequence-window grip classifier
 │   └── testing/              Predict_Sequence.py --self-test
 └── hardware_validation/
-    ├── final/                real-rig capture tool, 2-sensor ablation, data, models, photos
+    ├── final/                real-rig capture tool, 2-sensor ablation, data, models, photos, videos
     └── testing/              Train_Rig.py — reproduces the published rig results
+
+Experiments/
+└── Photo and video documentation for every physical experiment behind the
+    thesis — material characterization, sensor selection, and the grasp-
+    validation hardware pilot. See Experiments/README.md for the full layout.
 ```
 
 ## RRT_Star

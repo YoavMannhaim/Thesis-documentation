@@ -2,6 +2,9 @@
 
 Adhesive gripper, KUKA arm. All data recorded live from the physical rig.
 
+Photos and video recordings from these test sessions are in `photos/` and
+`videos/` alongside this file.
+
 ## Hardware condition at time of recording
 
 - Photoresistor channels **3 and 4 are dead**: exactly 0.0, zero variance, every frame.
