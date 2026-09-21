@@ -1,6 +1,6 @@
 # Summary Video
 
-`Bounding_the_Adhesive_Bond__Planning_and_Perception.mp4` — an AI-generated
+`Yoav Mann Mannhaim's thesis summary video.mp4` — an AI-generated
 video overview of this thesis, produced by Google NotebookLM's Video
 Overview feature from the thesis PDF, a written summary, and this
 repository as sources.
