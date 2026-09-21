@@ -66,6 +66,11 @@ Simulation_Results/
                                plus a results writeup comparing them against the
                                thesis's published Table 7.6 numbers.
 See Simulation_Results/README.md for the full layout.
+
+Summary_Video/
+└── An AI-generated narrated video overview of the thesis (NotebookLM).
+    Not real footage — see Summary_Video/README.md for what that means
+    and where the real photos/videos actually are.
 ```
 
 ## RRT_Star
