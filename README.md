@@ -1,5 +1,7 @@
 # Adhesive Gripper — Code for Testers
 
+**[Yoav Mann Mannhaim Thesis Report.pdf](./Yoav%20Mann%20Mannhaim%20Thesis%20Report.pdf)** — the full thesis this repository accompanies.
+
 ## Getting Started
 
 **Requirements:** Python 3.10+ (developed and tested on 3.12).
